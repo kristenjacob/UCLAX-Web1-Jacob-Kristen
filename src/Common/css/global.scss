@@ -1,0 +1,100 @@
+/*---------------------------
+| Fonts
+---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*---------------------------
+| Foundational
+---------------------------*/
+html, body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body {
+    overflow-y: scroll;
+    background-color: #014444;
+    min-width: 300px;
+}
+
+body.modal-open {
+    position: fixed;
+    top: 0px; right: 0px; bottom: 0px; left: 0px;
+    z-index: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px 15px;
+    color: #014444;
+}
+p {
+    margin: 0px 0px 15px;
+    font-size: 14px;
+}
+
+li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    p {
+        margin-bottom: 5px;
+    }
+}
+
+h1, h2 { font-weight: 700; }
+h3, h4 { font-weight: 500; }
+h5, h6 { font-weight: 400; }
+
+h1 { font-size: 50px; }
+h2 { font-size: 40px; }
+h3 { font-size: 30px; }
+h4 { font-size: 25px; }
+h5 { font-size: 20px; }
+h6 { font-size: 18px; }
+
+table {
+    border: solid 1px #ccc;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0px;
+
+    th, td {
+        border: solid 1px #ccc;
+        padding: 5px;
+        vertical-align: top;
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+nav.sublinks {
+    margin: 30px 0px;
+}
+
+nav.sublinks a {
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #027272;
+}
+
+nav.sublinks a:hover,
+nav.sublinks a.active {
+    background-color: #014444;
+}
