@@ -4,23 +4,24 @@ import { Outlet, NavLink } from 'react-router-dom';
 /* Component ---------------------------*/
 import Inset from '@/Common/PagesLayout/Inset';
 
-const Component = () => {
+const CourseWorkLayout = () => {
     return (
-        <ComponentStyled className='Component'>
+        <CourseWorkLayoutStyled className='Component'>
             <Inset>
                 <h1>Course Work</h1>
                 <nav className='sublinks'>
-                    <NavLink to="/course-work/">Essays</NavLink>
+                    <NavLink to="/course-work" end>Essays</NavLink>
                     <NavLink to="/course-work/sun-and-moon">Sun and Moon</NavLink>
+                    <NavLink to="/course-work/responsive">Responsive</NavLink>
                 </nav>
                 <Outlet />
             </Inset>
-        </ComponentStyled>
+        </CourseWorkLayoutStyled>
     );
 }
 
-export default Component;
+export default CourseWorkLayout;
 
-const ComponentStyled = styled.main`
+const CourseWorkLayoutStyled = styled.main`
 
 `;
