@@ -9,7 +9,7 @@ const MediumLarge = () => {
     return (
         <MediumLargeStyled className='MediumLarge'>
             <Inset>
-                <div className="inset">
+                <div className="row">
                     <div className="logo">
                         <SiteLogo />
                     </div>
@@ -32,11 +32,23 @@ const MediumLarge = () => {
 export default MediumLarge;
 
 const MediumLargeStyled = styled.div`
-     color: white;
+    color: white;
+
+    .row {
+        display: grid;
+        grid-template-columns: 25% 75%;
+
+        .logo { }
+        .menus {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+    }
 
 .logo {
     .SiteLogo {
-        width: 25%;
+        width: 80%;
         margin: auto;
         padding: 20px 0px;
     }
@@ -68,6 +80,7 @@ nav.mainMenu {
 
         &.active {
             color: white;
+
             border-bottom-color: white;
         }
     }
