@@ -5,7 +5,6 @@ import {
     faBars,
 } from '@fortawesome/free-solid-svg-icons'
 
-
 const Hamburger = ({toggleMenu}) => {
     return (
         <HamburgerStyled className='Hamburger' onClick={ toggleMenu }>
@@ -19,7 +18,7 @@ export default Hamburger;
 const HamburgerStyled = styled.div`
     position: absolute;
     top: 20px;
-    top: 20px;
+    right: 20px;
 
     font-size: 30px;
     color: white;

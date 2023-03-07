@@ -10,6 +10,5 @@ const InsetStyled = styled.div`
     max-width: 1200px;
     margin: auto;
     padding: 0px 10px;
-    outline: solid 1px red;
 
 `;

@@ -7,7 +7,7 @@ import SiteLogo from '../SiteLogo/SiteLogo.jsx';
 import Hamburger from './Hamburger.jsx';
 
 const Small = () => {
-    const [isMenuShowing, isMenuShowingUpdate] = useState(true);
+    const [isMenuShowing, isMenuShowingUpdate] = useState(false);
 
     const toggleMenu = () => {
         isMenuShowingUpdate(!isMenuShowing);
@@ -23,35 +23,35 @@ const Small = () => {
             document.body.classList.add('modal-open');
         } else {
             // remove class modal-open
-            document.body.classList.add('modal-open');
+            document.body.classList.remove('modal-open');
         }
 
-        // on discount clean up
+        // on dismount clean up
         return () => {
-            document.body.classList.add('modal-open');
+            document.body.classList.remove('modal-open');
         }
 
-    }, [isMenuShowing]);
+    },[isMenuShowing]);
 
     return (
         <SmallStyled className="Small">
             <SiteLogo />
 
-            <Hamburger toggleMenu={ toggleMenu }/>
+            <Hamburger toggleMenu={ toggleMenu } />
 
             {isMenuShowing && (
                 <nav className="mainMenu">
-                    <NavLink onClick ={ hideMenu } to={'/'} end>
+                    <NavLink onClick={ hideMenu } to={'/'} end>
                         Home
                     </NavLink>
-                    <NavLink onClick ={ hideMenu } to={'/staff'}>Staff</NavLink>
-                    <NavLink onClick ={ hideMenu } to={'/contact'}>Contact</NavLink>
-                    <NavLink onClick ={ hideMenu } to={'/course-work'}>Course</NavLink>
-            </nav>
+                    <NavLink onClick={ hideMenu } to={'/staff'}>Staff</NavLink>
+                    <NavLink onClick={ hideMenu } to={'/contact'}>Contact</NavLink>
+                    <NavLink onClick={ hideMenu } to={'/course-work'}>Course</NavLink>
+                </nav>
             )}
         </SmallStyled>
     );
-}
+};
 
 export default Small;
 
@@ -65,7 +65,6 @@ const SmallStyled = styled.div`
         height: 300px;
         padding: 20px;
         max-width: 330px;
-
     }
 
     .mainMenu {
@@ -94,5 +93,4 @@ const SmallStyled = styled.div`
             }
         }
     }
-
 `;
