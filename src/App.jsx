@@ -7,7 +7,7 @@ import PagesLayout from './Common/PagesLayout/PagesLayout';
 import PrimaryLayout from './Pages/Primary/PrimaryLayout';
 import Home from './Pages/Primary/Home/Home';
 import Staff from './Pages/Primary/Staff/Staff';
-import Contact from './Pages/Primary/Contact';
+import Contact from './Pages/Primary/Contact/Contact';
 
 /* Pages: Course Work ---------------------------*/
 import CourseWorkLayout from './Pages/CourseWork/CourseWorkLayout';

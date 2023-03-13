@@ -1,0 +1,22 @@
+{
+    "submissions": [
+        {
+            "id": "2b009fa2-9ebc-4ea0-ad9e-84c94b0c8e51",
+            "name": "Mitch",
+            "email": "meatch@me.com",
+            "message": "Some message would go here."
+        },
+        {
+            "id": "931b2b60-24de-4ec8-9f1f-aafd17f0a404",
+            "name": "George",
+            "email": "george@me.com",
+            "message": "Another message"
+        },
+        {
+            "id": "9792672f-f6cb-4b29-98c4-5f45ba24b66b",
+            "name": "Tan",
+            "email": "tan@me.com",
+            "message": "A message from Tan"
+        }
+    ]
+}
