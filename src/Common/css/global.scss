@@ -8,11 +8,11 @@
 ---------------------------*/
 html, body {
     margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Consolas, sans-serif;
 }
 body {
     overflow-y: scroll;
-    background-color: #014444;
+    background-color: #000000;
     min-width: 300px;
 }
 
@@ -27,9 +27,9 @@ body.modal-open {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Consolas', sans-serif;
     margin: 0px 0px 15px;
-    color: #014444;
+    color: whitesmoke;
 }
 p {
     margin: 0px 0px 15px;
@@ -91,10 +91,10 @@ nav.sublinks a {
     border-radius: 5px;
     padding: 10px 20px;
     color: white;
-    background-color: #027272;
+    background-color: #f7931e;
 }
 
 nav.sublinks a:hover,
 nav.sublinks a.active {
-    background-color: #014444;
+    background-color: #f7931e;
 }

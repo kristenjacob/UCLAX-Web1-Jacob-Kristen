@@ -1,11 +1,11 @@
-import image1 from './img/Alex-Esqueda.jpg';
-import image2 from './img/Silvie-Esqueda.jpg';
-import image3 from './img/Kara-Smith.jpg';
-import image4 from './img/Brook.jpg';
-import image5 from './img/Amber-Dyett.jpg';
-import image6 from './img/Dr-Skyler-Harms.jpg';
-import image7 from './img/Elisa-Eastwood.jpg';
-import image8 from './img/Jaque-Ong.jpg';
+import image1 from './img/jeanlucpicard.jpeg';
+import image2 from './img/WilliamRiker.jpeg';
+import image3 from './img/deannatroi.png';
+import image4 from './img/geordilaforge.jpeg';
+import image5 from './img/worf.png';
+import image6 from './img/BeverlyCrusher.jpeg';
+import image7 from './img/guinan.png';
+import image8 from './img/wesleycrusher.jpeg';
 import image9 from './img/John-Giron.jpg';
 import image10 from './img/Karlie-Goretski.jpg';
 import image11 from './img/Shana-Millspaugh.jpg';
@@ -14,7 +14,7 @@ export const staffData = [
     {
         id: 1,
         image: image1,
-        name: 'Alex Esqueda',
+        name: 'Jean-Luc Picard',
         yearStarted: 2013,
         accolades: [
             'Co-Owner, PageMeta Coach ',
@@ -26,7 +26,7 @@ export const staffData = [
     {
         id: 2,
         image: image2,
-        name: 'Silvie Esqueda',
+        name: 'Commander William Riker',
         yearStarted: 2013,
         accolades: [
             'Co-Owner & Coach',
@@ -38,7 +38,7 @@ export const staffData = [
     {
         id: 3,
         image: image3,
-        name: 'Kara Smith',
+        name: 'Counselor Deanna Troi',
         yearStarted: 2012,
         accolades: [
             'Lead Coach & Operations Assistant   ',
@@ -50,7 +50,7 @@ export const staffData = [
     {
         id: 4,
         image: image4,
-        name: 'Brook',
+        name: 'Geordi LaForge',
         yearStarted: 2019,
         accolades: [
             'Coach: Group Classes & Fundementals',
@@ -62,7 +62,7 @@ export const staffData = [
     {
         id: 5,
         image: image5,
-        name: 'Amber Dyett',
+        name: 'Worf',
         yearStarted: 2016,
         accolades: [
             'Coach',
@@ -74,7 +74,7 @@ export const staffData = [
     {
         id: 6,
         image: image6,
-        name: 'Dr Skyler Harms',
+        name: 'Doctor Beverly Crusher',
         yearStarted: 2010,
         accolades: [
             'Physical Therapist',
@@ -86,55 +86,25 @@ export const staffData = [
     {
         id: 7,
         image: image7,
-        name: 'Elisa Eastwood',
-        yearStarted: 2014,
+        name: 'Guinan',
+        yearStarted: 2010,
         accolades: [
-            'Coach: Group Classes & Fundamentals',
-            '​CF-L1',
-            '2018 CF Regional Competitor',
+            'Physical Therapist',
+            'Doctor of Physical Therapy',
+            'Titleist Performance Institute Certified',
+            'Dry Needling Level 2',
         ],
     },
     {
         id: 8,
         image: image8,
-        name: 'Jaque Ong',
-        yearStarted: 2012,
-        accolades: [
-            'PageMeta Olympic Lifting Coach',
-            'U.S.A.W',
-            'IKKF Instructor',
-            'Sports & Performance Cert Trainer',
-        ],
-    },
-    {
-        id: 9,
-        image: image9,
-        name: 'John Giron',
+        name: 'Wesley Crusher',
         yearStarted: 2010,
         accolades: [
-            'Coach: Group Classes & Fundamentals',
-            'CF-L1',
-        ],
-    },
-    {
-        id: 10,
-        image: image10,
-        name: 'Karlie Goretski',
-        yearStarted: 2015,
-        accolades: [
-            'Coach: Kids CF',
-            'CF-L1',
-        ],
-    },
-    {
-        id: 11,
-        image: image11,
-        name: 'Shana Millspaugh',
-        yearStarted: 2013,
-        accolades: [
-            'Coach',
-            'CF-L1',
-            'USAW L-1',
+            'Physical Therapist',
+            'Doctor of Physical Therapy',
+            'Titleist Performance Institute Certified',
+            'Dry Needling Level 2',
         ],
     },
 ];

@@ -15,10 +15,10 @@ export default Essay;
 
 const EssayStyled = styled.div`
     margin: 20px 0px;
-    border: solid 2px #0b4444;
+    border: solid 2px #06b1f9;
 
     h3{
-        background-color: #0b4444;
+        background-color: #06b1f9;
         padding: 10px 20px;
         color: whitesmoke;
         font-size: 20px;
@@ -26,7 +26,7 @@ const EssayStyled = styled.div`
     }
 
     .answer{
-            background-color: #eee;
+            background-color: whitesmoke;
             padding: 20px;
     }
 `;

@@ -16,11 +16,11 @@ const MediumLarge = () => {
                     <div className="menus">
                         <nav className="mainMenu">
                             <NavLink to={'/'} end>
-                                Home
+                                Bridge
                             </NavLink>
-                            <NavLink to={'/staff'}>Staff</NavLink>
-                            <NavLink to={'/contact'}>Contact</NavLink>
-                            <NavLink to={'/course-work'}>Course</NavLink>
+                            <NavLink to={'/staff'}>Crew</NavLink>
+                            <NavLink to={'/contact'}>Message</NavLink>
+                            <NavLink to={'/course-work'}>Academy</NavLink>
                         </nav>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const MediumLarge = () => {
 export default MediumLarge;
 
 const MediumLargeStyled = styled.div`
-    color: white;
+    color: #449af5;
 
     .row {
         display: grid;
@@ -62,12 +62,12 @@ nav.mainMenu {
 
         line-height: 30px;
         margin: 0px 0px 20px 5px;
-        border-bottom: solid 3px #84d4d4;
+        border-bottom: solid 3px #449af5;
 
         text-align: center;
         font-size: 12px;
         opacity: 0.8;
-        color: #84d4d4;
+        color: #449af5;
         font-weight: bold;
         text-decoration: none;
         text-transform: uppercase;
@@ -79,9 +79,9 @@ nav.mainMenu {
         }
 
         &.active {
-            color: white;
+            color: f7931e;
 
-            border-bottom-color: white;
+            border-bottom-color: f7931e;
         }
     }
 }

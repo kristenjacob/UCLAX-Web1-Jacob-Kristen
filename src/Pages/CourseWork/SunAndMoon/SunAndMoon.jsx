@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 
-import sunSrc from './images/sun.png';
-import moonSrc from './images/moon.png';
+import sunSrc from './images/goodpicard.jpeg';
+import moonSrc from './images/badpicard.webp';
 
 const SunAndMoon = () => {
 
@@ -24,7 +24,7 @@ const SunAndMoon = () => {
     // HTML
     return (
         <SunAndMoonStyled>
-            <h2>Sun And Moon</h2>
+            <h2>Resistence is futile.</h2>
             <div className="sunMoonImage">
                 <img
                     src={imgSrc}
@@ -45,14 +45,14 @@ const SunAndMoonStyled = styled.div`
 
         h2 {
             font-size: 50px;
-            color: teal;
+            color: #2FDE52;
         }
 
         img {
-            border: solid 20px teal;
+            border: solid 20px #95090e;
             margin: 30px;
             padding: 20px;
-            background-color: #073e3e;
+            background-color: #da0a25;
     }
 }
 `;

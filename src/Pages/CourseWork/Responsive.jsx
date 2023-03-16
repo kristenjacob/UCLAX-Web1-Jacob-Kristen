@@ -12,9 +12,9 @@ const Responsive = () => {
             <h2>Responsive Design</h2>
 
             <div className="boxes">
-                { isMediumAndUp && <div className="box box1">1</div> }
-                <div className="box box2">2</div>
-                <div className="box box3">3</div>
+                { isMediumAndUp && <div className="box box1">*</div> }
+                <div className="box box2">**</div>
+                <div className="box box3">***</div>
             </div>
         </ResponsiveStyled>
     );
@@ -37,7 +37,7 @@ const ResponsiveStyled = styled.div`
             font-size: 50px;
             text-align: center;
             color: white;
-            background-color: teal;
+            background-color: #fc050d;
             line-height: 200px;
 
     }
@@ -45,10 +45,10 @@ const ResponsiveStyled = styled.div`
     .box3 { border-radius: 100px; }
 
     @media ${breakpoints.isMediumAndUp} {
-        .box{ background-color: indigo;}
+        .box{ background-color: #06b1f9;}
     }
 
     @media ${breakpoints.isLargeAndUp} {
-        .box{ background-color: green;}
+        .box{ background-color: #f7931e;}
     }
 `;

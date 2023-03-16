@@ -6,21 +6,21 @@ import axios from 'axios';
 const Form = ({getSubmissions}) => {
 
     // NAME
-    const [inputName, inputNameUpdate] = useState('Slim Shady');
+    const [inputName, inputNameUpdate] = useState('Commander Tomalak');
     const inputNameOnChange = (e) => {
         const theValue = e.target.value;
         inputNameUpdate(theValue);
     }
 
     // Email
-    const [inputEmail, inputEmailUpdate] = useState('slim@shady.com');
+    const [inputEmail, inputEmailUpdate] = useState('commander@romulans.space');
     const inputEmailOnChange = (e) => {
         const theValue = e.target.value;
         inputEmailUpdate(theValue);
     }
 
     // NAME
-    const [inputMessage, inputMessageUpdate] = useState('Will the real shady please stand up.');
+    const [inputMessage, inputMessageUpdate] = useState('This message is for Captain Picard.');
     const inputMessageOnChange = (e) => {
         const theValue = e.target.value;
         inputMessageUpdate(theValue);
@@ -51,7 +51,7 @@ const Form = ({getSubmissions}) => {
 
             {/* Email */}
             <div className='control-group'>
-                <label htmlFor="email">Email:</label>
+                <label htmlFor="email">Starship:</label>
                 <input type="text" id="email" value={ inputEmail } onChange={ inputEmailOnChange } />
             </div>
 
@@ -62,7 +62,7 @@ const Form = ({getSubmissions}) => {
             </div>
 
 
-            <button type="submit">Send</button>
+            <button type="submit">Transmit</button>
         </FormStyled>
     );
 }
@@ -97,7 +97,7 @@ const FormStyled = styled.form`
     }
 
     button {
-        background-color: teal;
+        background-color: #e98a1b;
         padding: 10px 5px;
         color: white;
         width: 150px;
@@ -107,10 +107,10 @@ const FormStyled = styled.form`
         cursor: pointer;
 
         &:hover, &:focus {
-            background-color: #015353;
+            background-color: #c37316;
         }
         &:active {
-            background-color: #002020;
+            background-color: #e98a1b;
         }
     }
 

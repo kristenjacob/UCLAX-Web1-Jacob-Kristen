@@ -12,10 +12,11 @@ const Footer = () => {
                     <SiteLogo />
                 </div>
                 <h2>
-                    CrossFit Decimate :: Peace, Love, Unity, Fitness, Chill, and Respect :: Colorado Springs, CO
+                    The Next Generation :: Space: The Final Frontier
                 </h2>
                 <div className="copyright">
-                    &copy; 2023. All rights reserved.
+                    Winter Quarter 2023. UCLAx.<br></br>
+                    Kristen Jacob
                 </div>
             </Inset>
         </FooterStyled>
@@ -25,7 +26,7 @@ const Footer = () => {
 export default Footer;
 
 const FooterStyled = styled.footer`
-    color: white;
+    color: #000000;
 
     padding: 20px 0px;
 
@@ -41,14 +42,14 @@ const FooterStyled = styled.footer`
     }
 
     h2 {
-        color: white;
+        color: #449af5;
         margin: 5px 0px;
         font-size: 14px;
     }
 
     .copyright {
         font-size: 14px;
-        color: white;
+        color: #449af5;
     }
 
 `;

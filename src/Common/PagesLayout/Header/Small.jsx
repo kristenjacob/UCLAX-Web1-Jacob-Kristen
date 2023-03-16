@@ -42,11 +42,11 @@ const Small = () => {
             {isMenuShowing && (
                 <nav className="mainMenu">
                     <NavLink onClick={ hideMenu } to={'/'} end>
-                        Home
+                        Bridge
                     </NavLink>
-                    <NavLink onClick={ hideMenu } to={'/staff'}>Staff</NavLink>
-                    <NavLink onClick={ hideMenu } to={'/contact'}>Contact</NavLink>
-                    <NavLink onClick={ hideMenu } to={'/course-work'}>Course</NavLink>
+                    <NavLink onClick={ hideMenu } to={'/staff'}>Crew</NavLink>
+                    <NavLink onClick={ hideMenu } to={'/contact'}>Message</NavLink>
+                    <NavLink onClick={ hideMenu } to={'/course-work'}>Starfleet Academy</NavLink>
                 </nav>
             )}
         </SmallStyled>
@@ -75,7 +75,7 @@ const SmallStyled = styled.div`
         right: 0px;
         bottom: 0px;
 
-        background-color: #034444;
+        background-color: #000000;
 
         a {
             display: block;
@@ -89,7 +89,7 @@ const SmallStyled = styled.div`
             &:hover,
             &:active,
             &:focus {
-                background-color: #043434;
+                background-color: #000000;
             }
         }
     }

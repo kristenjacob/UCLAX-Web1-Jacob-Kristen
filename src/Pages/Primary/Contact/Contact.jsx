@@ -24,7 +24,7 @@ const Contact = () => {
     return (
         <ContactStyled className="Contact">
             <Inset>
-                <h1>Contact</h1>
+                <h1>Trasmit Message</h1>
                 <Form getSubmissions={ getSubmissions } />
                 <SubmissionList submissions={ submissions } />
             </Inset>
