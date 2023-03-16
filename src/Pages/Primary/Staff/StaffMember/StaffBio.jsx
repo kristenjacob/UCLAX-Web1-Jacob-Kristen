@@ -6,7 +6,6 @@ import AccoladeList from './Accolades/AccoladeList';
 const StaffBio = ({member}) => {
     return (
         <StaffBioStyled className='StaffBio'>
-            <div className="year"><b>Rank: </b>{member.yearStarted}</div>
             <b>About: </b>
             <AccoladeList member={ member }/>
         </StaffBioStyled>

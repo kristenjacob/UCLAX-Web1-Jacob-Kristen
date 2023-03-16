@@ -6,21 +6,17 @@ import image5 from './img/worf.png';
 import image6 from './img/BeverlyCrusher.jpeg';
 import image7 from './img/guinan.png';
 import image8 from './img/wesleycrusher.jpeg';
-import image9 from './img/John-Giron.jpg';
-import image10 from './img/Karlie-Goretski.jpg';
-import image11 from './img/Shana-Millspaugh.jpg';
+import image9 from './img/data.jpg';
 
 export const staffData = [
     {
         id: 1,
         image: image1,
-        name: 'Jean-Luc Picard',
+        name: 'Captain Jean-Luc Picard',
         yearStarted: 2013,
         accolades: [
-            'Co-Owner, PageMeta Coach ',
-            'Program Designer CrossFit Decimate ',
-            'Decimate Performance Training ',
-            'CCFT/L-3 Certified CrossFit Trainer',
+            'Makes it so ',
+            'Tea. Earl Grey. Hot.',
         ],
     },
     {
@@ -29,10 +25,20 @@ export const staffData = [
         name: 'Commander William Riker',
         yearStarted: 2013,
         accolades: [
-            'Co-Owner & Coach',
-            'CF-L2',
-            'USAW L-1',
-            'Precision Nutrition L-1',
+            '"Number One"',
+            'Innovative ways of sitting down - i.e. "The Riker"',
+        ],
+    },
+    {
+        id: 9,
+        image: image9,
+        name: 'Lieutenant Commander Data',
+        yearStarted: 2010,
+        accolades: [
+            'Android',
+            'Sentient being',
+            'Does not use contractions',
+
         ],
     },
     {
@@ -41,34 +47,27 @@ export const staffData = [
         name: 'Counselor Deanna Troi',
         yearStarted: 2012,
         accolades: [
-            'Lead Coach & Operations Assistant   ',
-            '​CF-L2 Trainer',
-            'ATA Certified: Adaptive & Inclusive Trainer',
-            'The Phoenix (Volunteer)',
+            'Empath  '
         ],
     },
     {
         id: 4,
         image: image4,
-        name: 'Geordi LaForge',
+        name: 'Lieutenant Commander Geordi LaForge',
         yearStarted: 2019,
         accolades: [
-            'Coach: Group Classes & Fundementals',
-            'CF-L2 , Trainer',
-            'ISSA Personal Trainer ',
-            'Nutrition Coach',
+            'Lieutenant Commander Geordi LaForge',
+            'Can fix things',
         ],
     },
     {
         id: 5,
         image: image5,
-        name: 'Worf',
+        name: 'Lieutenant Worf',
         yearStarted: 2016,
         accolades: [
-            'Coach',
-            'CF-L2',
-            'PN-1',
-            'BIRTHFIT Certified',
+            'Member of Klingon species',
+            'Raised by human parents',
         ],
     },
     {
@@ -77,10 +76,8 @@ export const staffData = [
         name: 'Doctor Beverly Crusher',
         yearStarted: 2010,
         accolades: [
-            'Physical Therapist',
-            'Doctor of Physical Therapy',
-            'Titleist Performance Institute Certified',
-            'Dry Needling Level 2',
+            'Can heal you with a remote control device',
+            'Crush on the captain',
         ],
     },
     {
@@ -89,10 +86,8 @@ export const staffData = [
         name: 'Guinan',
         yearStarted: 2010,
         accolades: [
-            'Physical Therapist',
-            'Doctor of Physical Therapy',
-            'Titleist Performance Institute Certified',
-            'Dry Needling Level 2',
+            'Member of El-Aurian species',
+            'Sneaky and subtle wisdom',
         ],
     },
     {
@@ -101,10 +96,10 @@ export const staffData = [
         name: 'Wesley Crusher',
         yearStarted: 2010,
         accolades: [
-            'Physical Therapist',
-            'Doctor of Physical Therapy',
-            'Titleist Performance Institute Certified',
-            'Dry Needling Level 2',
+            'Ensign',
+            'Usually gets blamed for things',
+            '"Shut up, Wesley."',
+
         ],
     },
 ];
