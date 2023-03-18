@@ -78,6 +78,7 @@ const FormStyled = styled.form`
         font-weight: bold;
         display: block;
         margin-bottom: 5px;
+        color: white;
     }
 
     input, textarea {
