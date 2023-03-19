@@ -10,7 +10,7 @@
         "server": "json-server --watch ./src/api-server/emails-db.json --port 4059",
         "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "git push origin master && gh-pages -d build"
+        "deploy": "git push origin master && NODE_DEBUG=gh-pages gh-pages -d build"
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.3.0",
