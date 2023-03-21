@@ -25,6 +25,9 @@ const SunAndMoon = () => {
     return (
         <SunAndMoonStyled>
             <h2>Resistence is futile.</h2>
+            <body>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/N75XngwbZQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </body>
             <div className="sunMoonImage">
                 <img
                     src={imgSrc}
