@@ -1063,7 +1063,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }
 `,u2=()=>{const[e,t]=O.useState(im[0]);return X(c2,{className:"Tabbed",children:[k(o2,{curTab:e,curTabUpdate:t,tabs:im}),k(s2,{curTab:e})]})},c2=ee.div`
 
-`,f2=()=>X(d2,{className:"Home",children:[k("h1",{children:"Home"}),k(qx,{}),k(Zr,{children:k(u2,{})})]}),d2=ee.div`
+`,f2=()=>X(d2,{className:"Home",children:[k("h1",{children:"Home"}),k("h2",{children:"Change 1"}),k(qx,{}),k(Zr,{children:k(u2,{})})]}),d2=ee.div`
 
    h1 {
         display: none;
